@@ -27,6 +27,6 @@
     "mocha": "^2.0.1"
   },
   "peerDependencies": {
-    "tilestrata": "*"
+    "tilestrata": ">=1.0.0"
   }
 }

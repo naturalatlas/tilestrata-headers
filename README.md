@@ -14,14 +14,8 @@ $ npm install tilestrata-headers --save
 ```js
 var headers = require('tilestrata-headers');
 
-server.registerLayer(function(layer) {
-    layer.setName('mylayer');
-    layer.registerRoute('tile.png', function(handler) {
-        layer.registerCache(...);
-        layer.registerProvider(...);
-        layer.registerResponseHook(headers({'Cache-Control: max-age=3600'}));
-    });
-});
+server.layer('mylayer').route('tile.png')
+    .use(headers({'Cache-Control: max-age=3600'}));
 ```
 
 ## Contributing
