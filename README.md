@@ -1,6 +1,6 @@
 # tilestrata-headers
 [![NPM version](http://img.shields.io/npm/v/tilestrata-headers.svg?style=flat)](https://www.npmjs.org/package/tilestrata-headers)
-[![Build Status](http://img.shields.io/travis/naturalatlas/tilestrata-headers/master.svg?style=flat)](https://travis-ci.org/naturalatlas/tilestrata-headers)
+[![Build Status](https://travis-ci.org/naturalatlas/tilestrata-headers.svg)](https://travis-ci.org/naturalatlas/tilestrata-headers)
 [![Coverage Status](http://img.shields.io/coveralls/naturalatlas/tilestrata-headers/master.svg?style=flat)](https://coveralls.io/r/naturalatlas/tilestrata-headers)
 
 A [TileStrata](https://github.com/naturalatlas/tilestrata) plugin for setting response headers.
@@ -28,7 +28,7 @@ $ npm test
 
 ## License
 
-Copyright &copy; 2015 [Brian Reavis](https://github.com/brianreavis) & [Contributors](https://github.com/naturalatlas/tilestrata-headers/graphs/contributors)
+Copyright &copy; 2015 [Natural Atlas, Inc.](https://github.com/naturalatlas) & [Contributors](https://github.com/naturalatlas/tilestrata-headers/graphs/contributors)
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
 

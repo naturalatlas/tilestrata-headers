@@ -3,7 +3,7 @@
   "version": "0.2.1",
   "description": "A TileStrata plugin for setting response headers",
   "author": "Brian Reavis <brian@thirdroute.com>",
-  "license": "Apache License, v2.0",
+  "license": "Apache-2.0",
   "main": "index.js",
   "scripts": {
     "test": "mocha -R tap"
@@ -15,7 +15,8 @@
   "keywords": [
     "tilestrata",
     "tilestrata-plugin",
-    "tilestrata-hook"
+    "tilestrata-hook",
+    "tilestrata-reshook"
   ],
   "bugs": {
     "url": "https://github.com/naturalatlas/tilestrata-headers/issues"
@@ -23,8 +24,8 @@
   "homepage": "https://github.com/naturalatlas/tilestrata-headers",
   "dependencies": {},
   "devDependencies": {
-    "chai": "^1.10.0",
-    "mocha": "^2.0.1"
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
   },
   "peerDependencies": {
     "tilestrata": ">=1.0.0"
