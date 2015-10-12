@@ -1,6 +1,6 @@
 {
   "name": "tilestrata-headers",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "A TileStrata plugin for setting response headers",
   "author": "Brian Reavis <brian@thirdroute.com>",
   "license": "Apache-2.0",
